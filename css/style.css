@@ -1,0 +1,210 @@
+:root {
+    --very-dark-gray: #333333;
+    --very-light-color: #F5FAFE;
+    --deep-pink: #EC1F46;
+    --white: #ffffff;
+    --star-color: #F2994A;
+    --dark-gray-blue: #0A223D;
+    --deep-blue: rgba(10, 34, 61, 0.8);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F5FAFE;
+    color: #333333;
+    font-family: 'Mulish', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+p {
+    max-width: 550px;
+}
+
+.flex {
+    display: flex;
+}
+
+span {
+    font-size: 8px;
+    color: var(--star-color);
+}
+
+.grand {
+    font-size: 20px;
+}
+
+.pink-color-box {
+    background-color: var(--deep-pink);
+    color: var(--white);
+}
+
+.pink-title {
+    color: var(--deep-pink);
+}
+
+.bg-white {
+    background-color: var(--white);
+}
+
+.blue-color-box {    
+    background: var(--dark-gray-blue);
+    color: var(--white);
+}
+
+.b-rad-5 {
+    border-radius: 5px;
+}
+
+.flash-offer-top {
+    font-size: smaller;
+}
+
+.desc-img-div{
+    background-blend-mode: soft-light;
+    background: linear-gradient(180deg, rgba(0, 122, 223, 0.48) 0%, rgba(255, 255, 255, 0.128) 100%);
+}
+
+.desc-img-div img {
+    opacity: 0.6;
+    height: 100%;
+}
+
+.desc-box,
+.btn-book {
+    font-family: 'Nunito', sans-serif;
+}
+
+.desc-card {
+    border-radius: 8px;
+    background: #0A223D;
+    color: #ffffff;
+}
+
+.price-starts {
+    font-size: 10px;
+}
+
+.per-room {
+    font-size: 15px;
+}
+
+.map{
+    position: relative;
+}
+
+.desc-ul-div {
+    background-color: var(--white);
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    margin-bottom: 25px;
+    margin-left: 80px;
+}
+
+.desc-ul {
+    width: 160px;
+    justify-content: space-between;
+}
+
+.desc-ul li {
+    font-size: 10px;
+}
+
+.li-blue {
+    color: #007ADF;
+}
+
+.package-links li {
+    font-weight: bold;
+}
+
+.underline {
+    border-bottom: 2.5px solid #EC1F46;
+}
+
+.ul-li {
+    list-style-image: url('../images/section-1/list-icon.png');
+    font-size: 17px;
+    /* margin: 10px 20px 20px 23px; */
+}
+
+.date{
+    list-style-image: url('../images/section-1/calendar.png');
+}
+
+/* .date {
+    margin: 10px 10px 20px 23px;
+} */
+
+/* .ul-li li,
+.date {
+    font-size: 15px;
+} */
+
+/* .package-card-first .ul-li {
+    padding-bottom: 13px;
+} */
+
+/* .valid{
+    font-size: 12px;
+} */
+
+/* .card {
+    margin-top: 20px;
+} */
+
+/* .upper-cards {
+    width: 540px;
+    justify-content: space-between;
+} */
+
+/* .package-title {
+    text-align: center;
+    margin-bottom: 20px;
+} */
+
+
+/* .package-card-first {
+    padding-bottom: 29px;
+} */
+
+/* .package-head{
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding: 10px 20px;
+} */
+/* 
+.Package-card {
+    background: #ffffff;
+    padding: 20px;
+} */
+
+/* .Package-card,
+.Package-card-div {
+    justify-content: space-between;
+} */
+
+/* .pack-wrap {
+    justify-content: space-between;
+} */
+
+
+.newsletter-section {
+    color: #ffffff;
+    background: var(--deep-blue) url(../images/section-4/Rectangle\ 25.png);
+    background-blend-mode: soft-light;
+}
+
+@media (min-width: 1024px) {
+    .review-container {
+        width: 650px;
+    }
+}
