@@ -28,10 +28,6 @@ p {
     max-width: 550px;
 }
 
-.flex {
-    display: flex;
-}
-
 span {
     font-size: 8px;
     color: var(--star-color);
@@ -56,6 +52,10 @@ span {
 
 .blue-color-box {    
     background: var(--dark-gray-blue);
+    color: var(--white);
+}
+
+.blue-color-box a {    
     color: var(--white);
 }
 
@@ -195,6 +195,32 @@ span {
 /* .pack-wrap {
     justify-content: space-between;
 } */
+
+.review-container {
+    background-color: #ffffff;
+    width: 770px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.reviewer-detail {
+    width: 100px;
+    height: 150px;
+    position: absolute;
+    top: -50px;
+    left: 300px;
+    text-align: center;
+}
+
+.review-note-div {
+    padding: 100px 80px 20px 80px;
+}
+
+.quote-end {
+    position: absolute;
+    top: 150px;
+    right: 50px;
+}
 
 
 .newsletter-section {
