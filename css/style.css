@@ -20,6 +20,10 @@ body {
     font-family: 'Mulish', sans-serif;
 }
 
+header a {
+    color: var(--very-dark-gray);
+}
+
 ul {
     list-style: none;
 }
@@ -28,13 +32,19 @@ p {
     max-width: 550px;
 }
 
-span {
+.star {
     font-size: 8px;
     color: var(--star-color);
 }
 
 .f-s-20 {
-    font-size: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.f-s-18 {
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .f-s-16 {
@@ -77,8 +87,7 @@ span {
 
 .best-tag {
     font-family: 'Luckiest Guy', cursive;
-    /* line-height: 45px; */
-    font-size: 29x;
+    /* font-size: 29px; */
 }
 
 .rate-div {
@@ -104,12 +113,7 @@ span {
     font-family: 'Nunito', sans-serif;
 }
 
-.map {
-    position: relative;
-}
-
 .desc-ul-div {
-    background-color: var(--white);
     position: absolute;
     z-index: 1;
     bottom: 10px;
@@ -145,10 +149,8 @@ span {
 }
 
 .review-container {
-    background-color: #ffffff;
     width: 770px;
     border-radius: 5px;
-    position: relative;
 }
 
 .reviewer-detail {
@@ -156,7 +158,7 @@ span {
     height: 150px;
     position: absolute;
     top: -50px;
-    left: 280px;
+    left: 43%;
 }
 
 .quote-end {
@@ -167,13 +169,12 @@ span {
 
 
 .newsletter-section {
-    color: #ffffff;
+    color: var(--white);
     background: var(--deep-blue) url(../images/section-4/Rectangle\ 25.png);
     background-blend-mode: soft-light;
 }
 
 .activity-image {
-    position: relative;
     z-index: -2;
     opacity: 5;  
 }
@@ -191,7 +192,6 @@ span {
     position: absolute;
     left: 10px;
     bottom: 10px;
-    /* z-index: 1; */
 }
 
 @media (min-width: 1024px) {
@@ -215,6 +215,6 @@ span {
         display: none;
     }
     .review-container {
-        width: 250px;
+        width: 300px;
     }
 }
