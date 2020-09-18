@@ -36,6 +36,10 @@ select {
     border: none;
 }
 
+.color-white {
+    color: var(--white) !important;
+}
+
 .star {
     font-size: 8px;
     color: var(--star-color);
@@ -174,7 +178,7 @@ select {
     height: 150px;
     position: absolute;
     top: -50px;
-    left: 43%;
+    left: 40%;
 }
 
 .quote-end {
