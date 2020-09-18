@@ -32,6 +32,10 @@ p {
     max-width: 550px;
 }
 
+select {
+    border: none;
+}
+
 .star {
     font-size: 8px;
     color: var(--star-color);
@@ -49,6 +53,10 @@ p {
 
 .f-s-16 {
     font-size: 16px;
+}
+
+.f-s-14 {
+    font-size: 15px;
 }
 
 .f-s-12 {
@@ -73,8 +81,8 @@ p {
 }
 
 .blue-color-box {    
-    background: var(--dark-gray-blue);
-    color: var(--white);
+    background: var(--dark-gray-blue) !important;
+    color: var(--white) !important;
 }
 
 .blue-color-box a {    
@@ -87,7 +95,10 @@ p {
 
 .best-tag {
     font-family: 'Luckiest Guy', cursive;
-    /* font-size: 29px; */
+}
+
+ footer .best-tag {
+    font-size: 29px;
 }
 
 .rate-div {
@@ -100,7 +111,6 @@ p {
 
 .desc-img-div{
     background-blend-mode: soft-light;
-    /* background: linear-gradient(180deg, rgba(0, 122, 223, 0.48) 0%, rgba(255, 255, 255, 0.128) 100%); */
 }
 
 .desc-img-div img {
@@ -148,6 +158,12 @@ p {
     list-style-image: url('../images/section-1/calendar.png');
 }
 
+.flash-offer{
+    top: 10px;
+    left: 0;
+    z-index: 1;
+}
+
 .review-container {
     width: 770px;
     border-radius: 5px;
@@ -175,23 +191,38 @@ p {
 }
 
 .activity-image {
+    width: 100% !important;
     z-index: -2;
-    opacity: 5;  
+    opacity: 0.8;  
 }
- 
-.grid-activity-item {
-    /* background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%); */
-} 
 
 .activities p {
     color: var(--white);
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .activity-decs{
     position: absolute;
-    left: 10px;
-    bottom: 10px;
+    left: 30px;
+    bottom: 30px;
+}
+
+.oh-perc {
+    height: 100% !important;
+}
+
+label,
+input {
+    width: 100% !important;
+    /* height: 100% !important; */
+}
+
+.message {
+    height: 150px !important;
+}
+
+footer li {
+    line-height: 30px;
 }
 
 @media (min-width: 1024px) {
@@ -207,13 +238,12 @@ p {
         flex-direction: column !important;
     }
     
+    .footer-none,
+    .rate-div,
     .profile-user {
         display: none !important;
     }
 
-    .rate-div {
-        display: none;
-    }
     .review-container {
         width: 300px;
     }
