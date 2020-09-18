@@ -235,7 +235,7 @@ footer li {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
     .header-middle,
     .service-section .col-sm-8 .card,
     .package-links {
@@ -250,5 +250,17 @@ footer li {
 
     .review-container {
         width: 300px;
+    }
+
+    .reviewer-detail {
+        width: 100px;
+        height: 150px;
+        position: absolute;
+        top: -50px;
+        left: 30%;
+    }
+
+    .mobile-li {
+        margin-left: 1.5rem;
     }
 }
