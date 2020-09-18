@@ -229,6 +229,10 @@ footer li {
     line-height: 30px;
 }
 
+.w-oh {
+    width: 100%;
+}
+
 @media (min-width: 1024px) {
     .review-container {
         width: 650px;
