@@ -22,6 +22,7 @@ body {
 
 header a {
     color: var(--very-dark-gray);
+    display: inline-block;
 }
 
 ul {
@@ -101,7 +102,11 @@ select {
     font-family: 'Luckiest Guy', cursive;
 }
 
- footer .best-tag {
+.header-ul li {
+    margin-right: 25px;
+}
+
+footer .best-tag {
     font-size: 35px;
 }
 
@@ -176,13 +181,11 @@ select {
 .reviewer-detail {
     width: 100px;
     height: 150px;
-    position: absolute;
     top: -50px;
     left: 40%;
 }
 
 .quote-end {
-    position: absolute;
     top: 150px;
     right: 50px;
 }
@@ -195,7 +198,6 @@ select {
 }
 
 .activity-image {
-    width: 100% !important;
     z-index: -2;
     opacity: 0.8;  
 }
@@ -206,19 +208,13 @@ select {
 }
 
 .activity-decs{
-    position: absolute;
     left: 30px;
     bottom: 30px;
-}
-
-.oh-perc {
-    height: 100% !important;
 }
 
 label,
 input {
     width: 100% !important;
-    /* height: 100% !important; */
 }
 
 .message {
@@ -229,10 +225,6 @@ footer li {
     line-height: 30px;
 }
 
-.w-oh {
-    width: 100%;
-}
-
 @media (min-width: 1024px) {
     .review-container {
         width: 650px;
@@ -241,7 +233,6 @@ footer li {
 
 @media (max-width: 768px) {
     .header-middle,
-    .service-section .col-sm-8 .card,
     .package-links {
         flex-direction: column !important;
     }
@@ -257,10 +248,6 @@ footer li {
     }
 
     .reviewer-detail {
-        width: 100px;
-        height: 150px;
-        position: absolute;
-        top: -50px;
         left: 30%;
     }
 
